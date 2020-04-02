@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+//引入antd样式文件
+// import 'antd/dist/antd.css'//有了按需引入以后，这个可以注释掉，它会自动引入需要的antd.css文件内容
 ReactDOM.render(
   <React.StrictMode>
     <App />
